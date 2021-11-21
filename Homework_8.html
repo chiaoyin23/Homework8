@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Homework_8</title>
+</head>
+<body>
+	<form>
+	<table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
+		<thead>
+			<tr>
+				<th colspan="3">About--110306023</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th rowspan="3">
+					<img src="photo.jpg" width="80">
+					<p>Personal photo</p>
+				</th>
+				<th colspan="2" align="left">
+					<label>Name:</label>
+						<input type="text" name="name"><br>
+					<label>Gender:</label>
+						<input type="radio" name="gender" value="male">Male
+						<input type="radio" name="gender" value="female">Female
+						<input type="radio" name="gender" value="other">Other
+				</th>
+			</tr>
+
+			<tr>
+				<th colspan="1" align="left">
+				<label>Country:</label>
+					<select>
+						<option value="taipei">Taipei</option>
+						<option value="tainan">Tainan</option>
+						<option value="taichung">Taichung</option>
+						<option value="taoyuan">Taoyuan</option>
+					</select>
+				</th>
+				<th colspan="1" align="left">
+					<label>Birthday:</label>
+					<input type="Date" name="date">
+				</th>
+			</tr>
+
+			<tr>
+				<th colspan="2" align="left">
+					<label>E-mail：</label>
+					<input type="text" name="name">
+				</th>
+			</tr>
+
+			<tr>
+				<th colspan="1" align="left">
+					<p>Hobby</p>
+				</th>
+				<th colspan="2" align="left">
+					<input type="checkbox" name="likes">Swimming
+					<input type="checkbox" name="likes">Volleyball
+					<input type="checkbox" name="likes">Movie
+					<input type="checkbox" name="likes">Game
+					<input type="checkbox" name="likes">sleep
+				</th>
+			</tr>
+
+			<tr>
+				<th colspan="1" align="left">
+					<p>Skill</p>
+				</th>
+				<th colspan="2" align="left">
+					<input type="checkbox" name="skill">Java
+					<input type="checkbox" name="skill">Html
+					<input type="checkbox" name="skill">Python
+					<input type="checkbox" name="skill">Microsoft Office
+					<input type="checkbox" name="skill">Premiere
+				</th>
+			</tr>
+
+			<tr>
+				<th colspan="1" align="left">
+					<p>Say Something</p>						
+				</th>
+
+				<th colspan="2" align="left">
+					<textarea type="text" placeholder="Say something here." rows="4" cols="50"></textarea>	
+				</th>
+			</tr>
+
+			<tr>
+				<th>
+					<input type="submit" name="提交">
+					<input type="reset" name="重設">
+				</th>
+			</tr>
+		</tbody>
+	</table>
+	</form>	
+</body>
+</html>
