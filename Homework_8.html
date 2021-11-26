@@ -4,18 +4,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Homework_8</title>
+	<style type="text/css">
+	body{ font-family: sans-serif, Helvetica, Arial; }
+	th{color: #B800B8;}	
+	th em{text-decoration: underline; color:#8A008A; }
+	.extra th{color: inherit;}
+
+	</style>
 </head>
 <body>
 	<form>
 	<table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
 		<thead>
 			<tr>
-				<th colspan="3">About--110306023</th>
+				<th colspan="3"><em>About--110306023</em></th>
 			</tr>
 		</thead>
 		<tbody>
 			<tr>
-				<th rowspan="3">
+				<th class="extra"  rowspan="3">
 					<img src="photo.jpg" width="80">
 					<p>Personal photo</p>
 				</th>
@@ -30,7 +37,7 @@
 			</tr>
 
 			<tr>
-				<th colspan="1" align="left">
+				<th class="extra" style="color:#FF8CFF;" colspan="1" align="left">
 				<label>Country:</label>
 					<select>
 						<option value="taipei">Taipei</option>
@@ -39,14 +46,14 @@
 						<option value="taoyuan">Taoyuan</option>
 					</select>
 				</th>
-				<th colspan="1" align="left">
+				<th class="extra" style="color:#FF8CFF;"  colspan="1" align="left">
 					<label>Birthday:</label>
 					<input type="Date" name="date">
 				</th>
 			</tr>
 
 			<tr>
-				<th colspan="2" align="left">
+				<th class="extra" style="color:#FF8CFF ;"colspan="2" align="left">
 					<label>E-mail：</label>
 					<input type="text" name="name">
 				</th>
@@ -56,7 +63,7 @@
 				<th colspan="1" align="left">
 					<p>Hobby</p>
 				</th>
-				<th colspan="2" align="left">
+				<th class="extra" colspan="2" align="left">
 					<input type="checkbox" name="likes">Swimming
 					<input type="checkbox" name="likes">Volleyball
 					<input type="checkbox" name="likes">Movie
@@ -66,7 +73,7 @@
 			</tr>
 
 			<tr>
-				<th colspan="1" align="left">
+				<th class="extra" colspan="1" align="left">
 					<p>Skill</p>
 				</th>
 				<th colspan="2" align="left">
